@@ -1,7 +1,7 @@
 """
 Calculates entanglement asymmetry of of deformed toric code (Castelnovo Chamon 2008)
-Does DMRG (twice) to get SSB ground state of deformed toric code Hamiltonian H(beta) 
-Spatial manifold is torus of size Lx x Ly, ground state breaks 1-form symmetry 
+Runs DMRG (twice) with TeNPy to get gnd state of deformed toric code Hamiltonian H(beta) 
+Spatial manifold is torus of size Lx x Ly, gnd state breaks 1-form Wilson loop symmetry
 From gnd state contracts MPS to get rho_A on cylinder subregion of size width x Ly
 Entanglement Asymmetry = S(rho_A_symmetrized) - S(rho_A)
     [ Requires directory 'data/' to save data, best if run on HPC cluster ]
