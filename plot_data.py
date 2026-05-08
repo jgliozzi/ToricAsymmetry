@@ -1,5 +1,5 @@
-# Plot data for deformed toric code entanglement asymmetry
-# plot is asymmetry of SSB ground state vs beta
+# Plot data produced by deformed_asym.py
+# plot shows asymmetry of SSB ground state vs beta for different Lx
 # In low beta (topological phase), asym ~ log 2 indep of Lx
 # In high beta (trivial phase), asym --> 0 as Lx --> \infty
 import numpy as np
